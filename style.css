@@ -2,16 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.header-background {
-    background-image: url(images/donation1.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-
-
-
-
-}
-
 .header-h1 {
     font-weight: 700;
     font-size: 65px;
@@ -53,6 +43,8 @@ body {
     border-radius: 5px;
 }
 
+
+
 .donate-amount {
     display: flex;
     text-align: center;
@@ -75,19 +67,19 @@ body {
 .donate-amount-box {
     background-color:
         #FAFAFA;
-    padding: 10px 20px;
+    padding: 20px 25px;
     margin: 8px;
     border-radius: 5px;
     color: #707070;
 }
 
 .donate-amount-box:hover {
-    border: 1px solid aqua;
+    border: 1px solid rgb(21, 152, 152);
 }
 
 .donate-amount-box2 {
     background-color: #FFEEEE;
-    padding: 10px 20px;
+    padding: 20px 25px;
     margin: 8px;
     border-radius: 5px;
     color: #FF5959;
@@ -124,6 +116,42 @@ body {
     border-radius: 5px;
     margin: 20px;
     padding: 20px;
+}
+
+.update-section {
+    background-color: #FFF4D6;
+    margin: 0 25% 7% 25%;
+    padding: 5%;
+    text-align: center;
+}
+
+.Email {
+    background-color: #d9d9d9;
+    padding: 2% 5%;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    margin-right: -3px;
+}
+
+.btn-color-2 {
+    background-color: orangered;
+    padding: 15px 25px;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Other-amount {
+    text-align: center;
+    margin: 0 25%;
+}
+
+.other-amount-p {
+    margin-top: 50px;
+    color: #B3B3B3;
 }
 
 .footer {
