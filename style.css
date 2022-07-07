@@ -118,6 +118,14 @@ body {
     padding: 20px;
 }
 
+.news-vedio {
+    margin-left: 15%;
+}
+
+.iframe-vedio {
+    margin: 0px 20px;
+}
+
 .update-section {
     background-color: #FFF4D6;
     margin: 0 25% 7% 25%;
